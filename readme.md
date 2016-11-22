@@ -77,9 +77,8 @@ class: middle
 ### Discrete
 - can only take certain values
 - can be binned
-- can be numeric (virtually always integer) or categorical
-- example: human age, product category, week of year
-- categorical values with too many possible cases => free text
+- can be numerical (virtually always integer) or categorical
+- example: human age, product category
 
 ---
 class: middle
@@ -88,9 +87,26 @@ class: middle
 - can take any values
 - real number
 - example: profit, unit price
-- time series with small time unit (sec, ms) => Continuous
+
+---
+class: middle
+
+### Exceptions:
+- categorical values with too many possible cases => free text
+- categorical with values are numbers => ordinal
+- Time series values:
+  * small units are usually continuous
+  * big units are usually discrete
 
 ---
 class: middle
 
 # Workshop
+
+3 groups, each group will take 10m to brainstorm
+what is a suitable chart types for each purpose
+**comparison**,
+**composition**,
+**distribution**
+
+Suggested chart types: Bar, Line, Area, Radar, Pie, Donut, Heatmap, Treemap
