@@ -35,9 +35,9 @@ class: middle
 
 ## Purposes:
 
-1. a comparison: which country has the highest population
-2. a composition: sales by departments, traffic by sources
-3. a distribution: number of reported bugs during Oct 2016
+1. **a comparison**: which country has the highest population
+2. **a composition**: sales by departments, traffic by sources
+3. **a distribution**: number of reported bugs during Oct 2016
 
 ---
 class: middle
