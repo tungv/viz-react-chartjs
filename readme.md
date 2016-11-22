@@ -109,4 +109,4 @@ what is a suitable chart types for each purpose
 **composition**,
 **distribution**
 
-Suggested chart types: Bar, Line, Area, Radar, Pie, Donut, Heatmap, Treemap
+Suggested chart types: Bar (stacked/grouped), Line (stacked/grouped), Area (stacked), Radar, Pie, Donut, Heatmap, Treemap
