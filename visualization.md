@@ -26,9 +26,9 @@ class: middle
 
 Choosing chart type depends on multiple factors
 
-1. the purposes of the representation (what question we're trying to answer)
-2. number of involving variables
-3. the data classes of each variables
+1. the **purposes** of the representation (what question we're trying to answer)
+2. **number** of involving **variables**
+3. the **data attributes** of each variables
 
 ---
 class: middle
@@ -42,7 +42,7 @@ class: middle
 ---
 class: middle
 
-## Understanding data classes
+## Understanding data attributes
 
 1. Continuous vs Discrete
 2. Dimensions vs measures

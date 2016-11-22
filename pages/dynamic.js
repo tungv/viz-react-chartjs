@@ -77,13 +77,13 @@ export default class DynamicPage extends React.Component {
   };
 
   componentDidMount() {
-    setInterval(() => {
+    this.interval = setInterval(() => {
       this.setState({
         data: {
           ...this.state.data,
           datasets: [{
             ...this.state.data.datasets[0],
-            data: ([1, 2, 3, 4, 5, 6, 7]).map(() => Math.random() * 20 + 70),
+            data: ([1, 2, 3, 4, 5, 6, 7]).map(() => Math.random() * 60 + 20),
           }],
         }
       })
@@ -92,6 +92,9 @@ export default class DynamicPage extends React.Component {
     // socketIO.on('message', (data) => this.setState({ data }));
   }
 
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
 
   render() {
     return <IsomorphicChart
