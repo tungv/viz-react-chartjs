@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/tung/.nvm/versions/node/v6.8.1/bin/node /Users/tung/.nvm/versions/node/v6.8.1/bin/yarn
+
+PATH: 
+  /Users/tung/.rvm/gems/ruby-2.2.0/bin:/Users/tung/.rvm/gems/ruby-2.2.0@global/bin:/Users/tung/.rvm/rubies/ruby-2.2.0/bin:/Users/tung/App/spark-2.0.0-bin-hadoop2.7/bin:/Users/tung/App/rabbitmq_server-3.6.5/sbin:/usr/local/go/bin:./node_modules/.bin:/Users/tung/.bin:/Users/tung/.nvm/versions/node/v6.8.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/tung/.rvm/bin
+
+Yarn version: 
+  0.17.8
+
+Node version: 
+  6.8.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "viz-slides",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "chart.js": "^1.1.0",
+      "next": "^1.1.2",
+      "react-chartjs": "^0.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:28:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)

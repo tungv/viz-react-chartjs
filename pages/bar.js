@@ -1,5 +1,5 @@
 import React from 'react';
-import Line from '../src/sample/Line'
+import IsomorphicChart from '../src/sample/IsomorphicChart'
 
 const chart = {
   data: {
@@ -38,7 +38,9 @@ const chart = {
 }
 
 export default () => (
-  <div>
-    <Line chartData={chart.data} chartOptions={chart.options}/>
-  </div>
+  <IsomorphicChart
+    data={chart.data}
+    options={chart.options}
+    type="Bar"
+  />
 );
